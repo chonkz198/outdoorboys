@@ -1,0 +1,456 @@
+@font-face {
+   font-family: 'RobotoCondensed VariableFont wght';
+   src: url('fonts/RobotoCondensed-VariableFont_wght.ttf') format('truetype');
+   font-weight: normal;
+   font-style: normal;
+}
+body {
+  font-family: 'RobotoCondensed VariableFont wght', sans-serif;
+}
+.body, .body * {
+  box-sizing: border-box;
+}
+.body {
+  	background: #0f0f0f;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+  	overflow: hidden;
+	flex-shrink: 1;
+    margin: auto;
+	width:90vw;
+	max-width: 1284px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.header {
+	background: rgba(64, 64, 64, 0);
+	border-radius: 2px;
+  	border-style: none;
+  	border-color: rgba(255, 255, 255, 0.1);
+  	border-width: 1px;
+  	padding: 10px;
+  	display: flex;
+	flex-direction: column;
+ 	gap: 10px;
+  	align-items: flex-end;
+  	justify-content: flex-start;
+  	flex-shrink: 1;
+	max-width: 100%;
+  	height: 60px;
+  	position: relative;
+  	overflow: hidden;
+}
+.t12 {
+	font-size: 12px;
+	color: #AAA;
+}
+.t14{
+	font-size: 14px;
+	color: #f0f0f0;
+}
+.t14bold {
+	color: #f0f0f0;
+}
+.span-1 {
+  	background: rgba(64, 64, 64, 0);
+ 	border-bottom: solid;
+  	border-color: #aaa;
+  	border-width: 1px;
+  	max-width: 100%;
+  	display: flex;
+  	flex-direction: column;
+	flex-wrap: wrap;
+  	gap: 10px;
+  	align-items: center;
+  	justify-content: center;
+  	flex-shrink: 1;
+  	position: relative;
+  	overflow: hidden;
+	padding-top: 60px;
+}
+.frame-1 {
+  	display: flex;
+	flex-direction: column;
+  	gap: 0px;
+  	align-items: flex-start;
+  	justify-content: center;
+  	flex-shrink: 1;
+	width: 100%;
+  	position: relative;
+  	overflow: hidden;
+	padding: 0px,25px,0px,25px;
+
+}
+.banner {
+  background: rgba(64, 64, 64, 0);
+  border-radius: 2px;
+  border-style: none;
+  border-color: rgba(255, 255, 255, 0.1);
+  border-width: 1px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 1;
+  position: relative;
+  overflow: hidden;
+	max-width: 100%;
+
+}
+.banner2 {
+  	border-radius: 15px;
+  	flex-shrink: 1;
+  	max-width: 100%;
+  	position: relative;
+
+}
+.topdiv-1 {
+  background: rgba(64, 64, 64, 0);
+  border-radius: 2px;
+  border-style: none;
+  border-color: rgba(255, 255, 255, 0.1);
+  border-width: 1px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  flex-shrink: 1;
+  position: relative;
+  overflow: hidden;}
+.logo {
+  background: rgba(64, 64, 64, 0);
+  border-radius: 2px;
+  border-style: none;
+  border-color: transparent;
+  border-width: 1px;
+  padding: 19px 12px 19px 12px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 1;
+  position: relative;
+  overflow: hidden;}
+.logo2 {
+  	border-radius: 88px;
+  	flex-shrink: 1;
+  	max-width: 160px;
+  	position: relative;
+}
+.topdiv-2 {
+  background: rgba(64, 64, 64, 0);
+  border-radius: 2px;
+  border-style: none;
+  border-color: rgba(255, 255, 255, 0.1);
+  border-width: 1px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 1;
+  position: relative;
+  overflow: hidden;
+}
+.toptext {
+  border-radius: 2px;
+  border-style: none;
+  border-color: rgba(255, 255, 255, 0.1);
+  border-width: 1px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 1;
+  position: relative;
+  overflow: hidden;
+	flex-wrap: wrap;
+	max-width: 600px;
+}
+.h-1 {
+	font-size: 20px;
+	font-weight: 700;
+	color: #F0F0F0;
+  	border-radius: 2px;
+  	border-style: none;
+  	border-color: rgba(255, 255, 255, 0.1);
+  	border-width: 1px;
+  	padding: 18px 0px 18px 0px;
+  	display: flex;
+  	gap: 10px;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	flex-wrap: wrap;
+  	flex-shrink: 1;
+  	position: relative;
+  	overflow: hidden;
+}
+.luke {
+  	font-size: 36px;
+	font-weight: 700;
+	color: #F0F0F0;
+  	text-align: left;
+  	position: relative;
+}
+.p-1 {
+  background: rgba(64, 64, 64, 0);
+  border-radius: 2px;
+  border-style: none;
+  border-color: rgba(255, 255, 255, 0.1);
+  border-width: 1px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  flex-shrink: 1;
+  position: relative;
+  overflow: hidden;
+}
+.blah-blah-blah {
+    font-size: 14px; /* Add font-size property */
+    font-weight: thin; /* Assuming you want a thin font weight */
+    color: #AAA;
+    text-align: left;
+    position: relative;
+    max-width: 600px;
+    max-height: 100px;
+}
+.buyframe {
+  background: rgba(255, 255, 255, 0);
+  border-style: none;
+  border-color: rgba(255, 255, 255, 0.1);
+  border-width: 1px;
+  padding: 6px 7px 6px 7px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 1;
+  position: relative;
+  overflow: hidden;
+}
+.button {
+  background: #F0F0F0;
+  border-radius: 18px;
+  border-style: none;
+  border-color: rgba(255, 255, 255, 0);
+  border-width: 1px;
+  flex-shrink: 1;
+  max-width: 80px;
+  max-height: 36px;
+  position: relative;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.buy-button {
+ 	background-color: #F0F0F0;
+ 	border: none;
+ 	border-radius: 46px;
+  	color: #0f0f0f;
+  	cursor: pointer;
+  	font-weight: 500;
+	font-size: 14px;
+  	padding: 10px 20px;
+  	transition: all 0.3s ease;
+}
+.buy-button:hover {
+  background-color: rgba(255,255,255,0.8);
+}
+.buy-button:active {
+	transform: scale(0.95);
+}
+.buy-button.clicked {
+  animation: clickAnimation 0.5s ease; /* Animation on click */
+
+}@keyframes clickAnimation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.menu {
+  padding-bottom: 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  flex-shrink: 1;
+  max-width: 1284px;
+  height: 62px;
+  position: relative;
+  overflow: hidden;
+}
+.tab-button {
+    position: relative;
+    font-weight: 500;
+    color: #aaa;
+    font-size: 1rem;
+	line-height: 2.2rem;
+    background-color: transparent;
+    border: none;
+    text-decoration: none;
+}
+.tab-button::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 100%;
+    height: 2px;
+    background-color: #aaa;
+    transform: translateX(-50%) scaleX(0);
+    transition: transform 0.3s, width 0.3s;
+}
+.tab-button:hover::after,
+.tab-button.active::after {
+    width: calc(100% + 12px);
+    transform: translateX(-50%) scaleX(1);
+}
+.tab-button.active {
+    font-weight: bold;
+    color: #f0f0f0; /* Change to your desired color for the active tab text */
+}
+.tab-content {
+    display: none;
+}
+.tab-content.active {
+    display: flex;
+	flex-direction: column;
+	flex-shrink: 1;
+	width:100%;
+}
+.tabs {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.tabs + .tab-content {
+  margin-top: 10px; /* Adjust as needed */
+}
+.span-2 {
+	border-bottom: 1px solid #777;
+  	width: 100%;
+  	display: flex;
+  	flex-shrink: 1;
+  	position: relative;
+  	overflow: hidden;
+}
+.frame-2 {
+	display: flex;
+  	flex-direction: row;
+	flex-wrap: wrap;
+  	align-items:flex-start;
+  	justify-content: flex-start;
+  	flex-shrink: 1;
+  	position: relative;
+  	overflow: hidden;
+	margin-top: 10px;
+	width:100%;
+}
+.vid-1 {
+  display: flex;
+  flex-shrink: 1;
+  position: relative;
+}
+.flavour {
+  	border-radius: 2px;
+  	border-style: none;
+  	border-color: rgba(255, 255, 255, 0.1);
+  	border-width: 1px;
+  	
+	display:flex;
+	flex-wrap: wrap;
+  	flex-shrink: 1;
+  	max-height: 300px;
+	max-width: 400px;
+  	position: relative;
+  	overflow: hidden;
+	
+}
+.text {
+  	font-weight: 100;
+	padding-left: 10px;
+  	display: flex;
+	flex-wrap: wrap;
+	color: #AAA;
+  	flex-shrink: 1;
+  	overflow: hidden;
+}
+.text1 {
+  	font-weight: 100;
+	padding-left: 10px;
+  	display: flex;
+	flex-wrap: wrap;
+	color: #AAA;
+  	flex-shrink: 1;
+  	overflow: hidden;
+}
+.span-3 {
+	width: 100%;
+  position: relative;
+}
+.frame-3 {
+  display: flex;
+  overflow-x: auto;
+	margin-bottom:20px;
+	position: relative;
+}
+.vid-wrapper {
+  flex: 0 0 auto;
+  max-width: 200px;
+  margin-right: 15px;
+	position: relative;
+}
+.vid {
+  max-width: 210px;
+  max-height: 118px;
+  border-radius: 8px;
+  object-fit: cover;
+	position: relative;
+}
+.vid2 {
+  border-radius: 8px;
+  object-fit: contain;
+	max-width: 424px;
+	position: relative;
+}
+.vid-wrapper.video-controls video {
+  controls: true;
+}
+.vid-wrapper:not(.video-controls) video {
+  controls: false;
+}
+
+/* media queries*/
+
+@media (max-width: 960px){
+	.text{
+		display:none;
+	}
+	.frame-2 {
+		justify-content: center;
+	}
+	.vid2 {
+		width: 80vw;
+	}
+	.logo{
+		display:none;
+}
+}
+@media screen and (orientation: landscape) and (max-width: 1790px){
+		.body{
+			padding-left: 250px;
+		}
+	}
